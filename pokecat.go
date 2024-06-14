@@ -15,7 +15,7 @@ import (
 
 // Configuration constants
 const (
-	GridSize           = 1000 // Grid size of the world
+	GridSize           = 2000 // Grid size of the world
 	MaxPokemonPerBatch = 50    // Max number of Pokémon generated each time
 	PokemonDisappear   = 300   // Time in seconds, after which a Pokémon disappears if not caught (60 seconds = 1 minute)
 	MaxPokemonCapacity = 200  // Maximum number of Pokémon a player can hold
@@ -243,7 +243,6 @@ func handlePlayer(conn net.Conn, pokemonChannel <-chan Pokemon) {
 		} else {
 			mutex.Unlock()
 		}
-
 		player.Conn.Write([]byte(fmt.Sprintf("Updated position: (%d, %d)\n", player.X, player.Y)))
 	}
 }
