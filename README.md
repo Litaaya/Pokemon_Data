@@ -2,4 +2,4 @@
 - Remember, client go with server, player go with main, pokecat plays alone :3
 
 # Running method
-- Simple method to running Go language
+- Simple method to run Go language
