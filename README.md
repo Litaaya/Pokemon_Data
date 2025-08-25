@@ -1,2 +1,5 @@
 # Pokemon_Data
-Due to being too busy, the readme file for this project has not been updated yet :<
+Remember, client go with server, player go with main, pokecat plays alone :3
+
+# Running method
+- Simple moethod to running Go language
